@@ -16,8 +16,6 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
 
     TextView mcarTextview;
-    Button mButtonVW;
-    Button mButtonskoda;
 
     DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
     DatabaseReference mcarRef = mRootRef.child("car");
@@ -29,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         mcarTextview = (TextView)findViewById(R.id.textViewcar);
-        mButtonVW = (Button)findViewById(R.id.buttonVW);
-        mButtonskoda = (Button)findViewById(R.id.buttonskoda);
     }
 
     @Override
