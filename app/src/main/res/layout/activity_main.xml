@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="one.com.test.tesdatadatabasone.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="-229dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textViewcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="car"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/buttonVW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vw"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/buttonskoda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skoda"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+</android.support.constraint.ConstraintLayout>
